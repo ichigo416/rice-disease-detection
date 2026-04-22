@@ -8,7 +8,6 @@ from tensorflow.keras import layers, models, regularizers
 from tensorflow.keras.applications import MobileNet
 from tensorflow.keras.applications.mobilenet import preprocess_input
 
-
 # ================= CUSTOM PREPROCESS =================
 class MobileNetPreprocess(layers.Layer):
     def call(self, x):
